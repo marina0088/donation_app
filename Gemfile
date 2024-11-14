@@ -78,3 +78,7 @@ gem 'devise'
 gem 'active_hash'
 
 gem 'pry-rails'
+
+group :production do
+  gem 'pg'
+end
